@@ -1,0 +1,190 @@
+body{
+  background-color: #bebebe;
+}
+a img{
+  height: 100px;
+}
+
+.stol img{
+  width: 300px;
+  height: 200px;
+}
+.stol h2{
+padding-left: 35px;
+}
+.stol h3{
+padding-left: 43px;
+}
+
+p a img{
+height: 100px;
+}
+h6{
+color: white;
+}
+
+header {
+background-color: rgb(90, 90, 90);
+padding: 20px;
+}
+.navigation p{
+display: inline-block;
+font-size: 12px;
+}
+
+
+nav{
+display: inline-block;
+}
+
+a{
+text-decoration: none;
+color: black;
+}
+nav i{
+border: 1px solid black;
+border-radius: 50%;
+padding: 5px;
+}
+
+body > header > section.navigation > nav > ul > li:nth-child(3){
+padding-right: 3px; 
+cursor: pointer;
+}
+a:hover{
+color: #50b9e1;
+cursor: pointer;
+}
+
+h1{
+  color: white;
+  text-align: center;
+  font-size: 40px;
+}
+
+
+/* Search bar */
+.container{
+  width: 100%;
+  padding-left: 35%;
+  padding-left: flex;
+  background-position: center;
+  background-size: cover;
+}
+.search-bar{
+  width: 100%;
+  max-width: 600px;
+  background: #d6d6d6;
+  display: flex;
+  align-items: center;
+  border-radius: 50px;
+  padding: 5px 5px;
+  box-shadow: 2px 2px 5px rgb(255, 255, 255);
+}
+.search-bar input{
+  background: transparent;
+  flex: 1;
+  border: 0;
+  outline: none;
+  padding: 5px 5px;
+  font-size: 30px;
+  color: #000000;
+
+  font-size: 20px;
+  height: auto;
+  margin-bottom: 05px;
+  max-width: 565px;
+  min-width: 50px;
+}
+::placeholder{
+  color: #000000;
+  font-size: 30px;
+  text-align: center;
+  text-shadow: 2px 2px 5px rgb(0, 0, 0);
+}
+.search-bar button img{
+  width: 20px;
+  height: 20px;
+}
+.search-bar button{
+  border: 0;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  background: #58629b;
+  cursor: pointer;
+}
+
+
+
+
+
+.advertisement {
+  background-color: #FFF;
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+  height: 400px;
+  width: 1000px;
+  margin-left: 23%;
+  border-radius: 14px;
+}
+
+.left-section {
+  flex: 1;
+}
+
+.right-section {
+  flex: 1;
+  text-align: right;
+}
+
+h2 {
+  color: #333;
+  font-size: 24px;
+  padding-right: 100px;
+}
+
+p {
+  color: #666;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.btn:hover {
+  background-color: #ff3b00;
+}
+
+div a img{
+  height: 300px;
+  padding-left: 90px;
+}
+
+h1.qwer{
+  color: #333;
+  text-align: left;
+}
+h1.h1{
+  color: #333;
+  text-align: left;
+  padding-left: 75px;
+}
+h1.h2{
+  color: #333;
+  text-align: left;
+  padding-left: 100px;
+}
+h1.h3{
+  color: #333;
+  text-align: left;
+  padding-left: 45px;
+}
+h1.tyui{
+  color: #333;
+  text-align: right;
+}
+
+a{
+  font-size: 35px;
+  color: red;
+}

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Get IP Address</title>
+	<script>
+		function getIPAddress() {
+			var xhttp = new XMLHttpRequest();
+			xhttp.onreadystatechange = function() {
+				if (this.readyState == 4 && this.status == 200) {
+					document.getElementById("ip_address").innerHTML = this.responseText;
+				}
+			};
+			xhttp.open("GET", "index.php", true);
+			xhttp.send();
+		}
+	</script>
+</head>
+<body onload="getIPAddress()">
+	<h1>Your IP Address:</h1>
+	<div id="ip_address"></div>
+</body>
+</html>
